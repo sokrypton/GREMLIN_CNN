@@ -2,6 +2,7 @@ import keras
 from keras.layers import *
 from keras.models import Sequential,Model,load_model
 from keras import backend as K
+from keras import regularizers
 from keras.engine.topology import Layer
 
 import tensorflow as tf
